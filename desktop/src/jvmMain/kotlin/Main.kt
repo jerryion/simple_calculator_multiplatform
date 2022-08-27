@@ -5,8 +5,7 @@ import androidx.compose.ui.window.application
 
 fun main() = application {
     Window(onCloseRequest = ::exitApplication) {
-        MaterialTheme {
-            App()
-        }
+        this.window.title = "Simple Calculator"
+        App()
     }
 }
